@@ -15,7 +15,8 @@ stages:
         software_environment: py27
         repository:
           url: https://github.com/btraven00/ob-container-isolate-python
-          commit: 67f5408
+          commit: 3f77d03
+ 
  
 
 
