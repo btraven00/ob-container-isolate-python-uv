@@ -2,9 +2,9 @@ id: legacy_bench
 version: "0.0.1"
 benchmarker: "btraven"
 software_environments:
-  py27:
-    description: "ancient python with virtualenv"
-    apptainer: py27.sif
+  py3.11:
+    description: "python 3.8+ with uv"
+    apptainer: py311.sif
 software_backend: apptainer
 
 stages:
@@ -16,9 +16,6 @@ stages:
         repository:
           url: https://github.com/btraven00/ob-container-isolate-python
           commit: 3f77d03
- 
- 
-
 
     outputs:
       - id: test

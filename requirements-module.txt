@@ -1,0 +1,7 @@
+# these are the requirements for the module environment
+# in the case of this repo, they will be used with the legacy 3.x python
+requests < 2.28
+h5py==3.12.1
+idna==3.10
+igraph==0.11.6
+

@@ -1,3 +1,0 @@
-# these are the requirements for your virtualenv
-# in the case of this repo, they will be used with the legacy py27 python
-requests < 2.28

@@ -1,0 +1,5 @@
+# OmniBenchmark Module Configuration
+# Requires omnibenchmark >= 0.4.0
+
+entrypoints:
+  default: entrypoint.sh
